@@ -1,0 +1,79 @@
+<resources>
+    <string name="app_name">SurakhsMaa</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="month1"><font fgcolor='#3d9fd7'>Months One, Two, and Three</font>\n\n
+        <font fgcolor='#3d9fd7'>Your body</font>\n
+1.By the end of the third month, you may have gained several pounds. You may feel very tired due to hormonal changes. Plan to get extra rest, sneaking in naps when you can, and slow down. You should feel more energetic by the end of the third month.\n\n
+
+2.You may need to urinate more frequently now. This is common during the first trimester of pregnancy and again right before your baby is born.\n\n
+
+3.For greater comfort, start wearing loosely fitting clothes.\n\n
+
+4.See your health care provider by the second month to confirm your pregnancy. Regular check-ups will be scheduled for your prenatal care.\n\n
+
+        <font fgcolor='#3d9fd7'>Your diet</font>\n
+1.Calcium is very important for both your and your baby’s bones and teeth. An easy way to include calcium in your diet is to drink and eat pasteurized dairy products, such as milk, cheese, yogurt and ice cream.
+\n\n
+2.Eat plenty of raw fruits and vegetables, whole grain breads and bran cereal to make sure your bowel movements are regular. Be sure to drink plenty of water.\n\n
+
+        <font fgcolor='#3d9fd7'>Your feelings</font>\n
+1.Talk to your partner about how you are feeling. Ask for help, especially if you are tired. During this time you may feel overweight and clumsy. Remember the extra weight is preparing your body for pregnancy and breastfeeding.\n\n
+
+2.During pregnancy, it is common to have mood swings in your feelings about sex. It is not harmful to have sexual relations during pregnancy, but check with your health care provider about sexual activity during this time.\n</string>
+
+    <string name="month4">
+        <font fgcolor='#3d9fd7'> Your body</font>\n
+You may notice that you have more energy. Nausea and fatigue may stop. You may also notice that your belly looks larger because the baby has grown.\n\n
+
+        <font fgcolor='#3d9fd7'>Your diet</font>\n
+During pregnancy, your need for iron increases. To be sure you get enough iron, eat lean, red meats, leafy green vegetables, whole grain breads, dried fruits and beans.\n\n
+
+        <font fgcolor='#3d9fd7'>Childbirth preparation classes</font>
+Childbirth classes should begin in month seven. Register now since classes often fill up early.\n
+    </string>
+    <string name="month5">
+        <font fgcolor='#3d9fd7'>   Your body</font>\n
+Changes in your circulation require that you stand and move often. Continue to do this throughout the remainder of your pregnancy. Your breasts may begin to leak a yellowish fluid called colostrum in preparation for breastfeeding. You may begin to feel the baby move during this month.\n\n
+
+<font fgcolor='#3d9fd7'>Your diet</font>\n
+Be sure to eat food rich in Vitamin C. Your body does not store Vitamin C, so it is important to get a fresh supply every day. Good sources of Vitamin C are oranges, broccoli and tomatoes.\n\n
+
+<font fgcolor='#3d9fd7'>Choosing a health care provider for your baby</font>\n
+Before you are admitted to the hospital, you need to decide who will care for your baby after the delivery. This is a good time in your pregnancy to start looking for a health care provider for your baby if you have not already chosen one. Talk to your friends and ask them if they are happy with the health care provider who cares for their children. Many pediatricians and family care physicians will meet with you before your baby is born and let you interview them. It is a good idea to select someone close to where you live.\n\n</string>
+
+    <string name="month6">
+        <font fgcolor='#3d9fd7'>  Your body</font>\n
+You may gain 3 to 4 pounds this month. Your feet may swell during the latter stages of pregnancy. Putting your feet up may help reduce any ankle swelling. Shop for wide, comfortable shoes, preferably with a flat heel.\n\n
+
+<font fgcolor='#3d9fd7'>Your diet</font>\n
+You may crave certain foods or find that other foods smell or taste bad, even if you liked them before you were pregnant. If this happens, try to find substitutes that provide the right nutrients.\n\n
+
+<font fgcolor='#3d9fd7'>Hospital pre-registration</font>\n
+If you have not already pre-registered at the hospital where you will deliver, this is a good time to do so. If you are delivering at a Sutter Health hospital, you can pre-register online at www.babies.sutterhealth.org/delivering/onlinereg.html. If you are delivering at a non-Sutter Health hospital, check with your health care provider or call the hospital directly for pre-registration information.\n\n
+    </string>
+    <string name="month7">
+       <font fgcolor='#3d9fd7'> Your body</font>\n
+You may gain 3 to 4 pounds this month. You may tire more easily. Again, ask for help. If you work, try to work shorter hours or arrange for a more flexible schedule if possible. Rest when you can.\n
+
+<font fgcolor='#3d9fd7'>Your feelings</font>\n
+Mood swings and increased irritability are common during the last three months of pregnancy. Be sure to discuss your feelings with your partner.\n\n
+
+<font fgcolor='#3d9fd7'>Childbirth preparation classes</font>\n
+Begin childbirth preparation classes with your partner. These classes provide useful information on labor and birth and what to expect during your delivery.\n\n
+
+    </string>
+    <string name="month8">
+        <font fgcolor='#3d9fd7'>        Your body</font>\n
+You may gain 3 to 4 pounds this month. Increases in frequency of urination, backaches, anxiety, heartburn and shortness of breath occur at this time. Shop for larger maternity clothes, if necessary. You will be growing quite a bit these last few weeks.\n\n
+
+<font fgcolor='#3d9fd7'>Your diet</font>\n
+What you eat is still important. If you have trouble sleeping, try drinking something warm and lying on your side with pillows to support your body. Taking a warm shower before bed can also help you relax and make you sleepy.\n\n
+    </string>
+    <string name="month9">
+        <font fgcolor='#3d9fd7'>        Your body</font>\n
+You may gain 3 to 4 pounds this month. Your stomach may change shape as the baby begins to position itself for birth. It may be easier to breathe now, but you may have to urinate more often. Get plenty of rest!\n\n
+
+        <font fgcolor='#3d9fd7'>Hospital stay</font>\n
+Make arrangements for your hospital stay. Keep important phone numbers and papers close by. Pack your bag for the hospital, and plan how you will get there at different times of the day or night. Make sure you have everything you will need when you come home from the hospital, such as food and diapers.\n\n
+    </string>
+</resources>

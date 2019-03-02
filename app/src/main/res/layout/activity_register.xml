@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegisterActivity">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:padding="4sp"
+            android:layout_margin="8sp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <LinearLayout
+                android:weightSum="100"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_height="wrap_content"
+                    android:layout_margin="8sp"
+                    android:layout_width="0sp"
+                    android:layout_weight="30"
+                    android:text="Name :"
+                    android:minHeight="40sp"
+                    android:textColor="#bd48095c"
+                    android:textSize="24sp" />
+                <EditText
+                    android:id="@+id/name"
+                    android:layout_height="wrap_content"
+                    android:minHeight="40sp"
+                    android:layout_width="0sp"
+                    android:layout_weight="70"
+                    android:layout_margin="8sp"
+                    android:background="@drawable/border"
+                    android:hint="Enter Name"
+                    android:inputType="textAutoCorrect"
+                    android:padding="10sp"
+                    android:textSize="20sp" />
+            </LinearLayout>
+            <LinearLayout
+                android:weightSum="100"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_height="wrap_content"
+                    android:minHeight="40sp"
+                    android:layout_weight="34"
+                    android:layout_width="0sp"
+                    android:layout_margin="8sp"
+                    android:text="Password:"
+                    android:textColor="#bd48095c"
+                    android:textSize="24sp" />
+                <EditText
+                    android:id="@+id/htno"
+                    android:layout_height="wrap_content"
+                    android:minHeight="40sp"
+                    android:layout_width="0sp"
+                    android:layout_margin="8sp"
+                    android:layout_weight="66"
+                    android:background="@drawable/border"
+                    android:hint="Set a password"
+                    android:inputType="textVisiblePassword"
+                    android:padding="10sp"
+                    android:textSize="20sp" />
+            </LinearLayout>
+            <LinearLayout
+                android:weightSum="100"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_height="wrap_content"
+                    android:minHeight="40sp"
+                    android:layout_weight="30"
+                    android:layout_width="0sp"
+                    android:layout_margin="8sp"
+                    android:text="Ph No :"
+                    android:textColor="#bd48095c"
+                    android:textSize="24sp" />
+                <EditText
+                    android:id="@+id/phno"
+                    android:layout_height="wrap_content"
+                    android:minHeight="40sp"
+                    android:layout_width="0sp"
+                    android:layout_margin="8sp"
+                    android:layout_weight="70"
+                    android:background="@drawable/border"
+                    android:hint="Enter Mobile Number"
+                    android:inputType="phone"
+                    android:padding="10sp"
+                    android:textSize="20sp" />
+            </LinearLayout>
+            <LinearLayout
+                android:weightSum="100"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_height="wrap_content"
+                    android:minHeight="40sp"
+                    android:layout_width="0sp"
+                    android:layout_weight="40"
+                    android:layout_margin="8sp"
+                    android:text="Gender :"
+                    android:textColor="#bd48095c"
+                    android:textSize="24sp" />
+
+                <Spinner
+                    android:id="@+id/gender"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="70"
+                    android:layout_width="0sp"
+                    android:layout_margin="8sp"
+                    android:textSize="20sp" />
+
+            </LinearLayout>
+            <Button
+                android:id="@+id/otpBtn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_marginLeft="20sp"
+                android:layout_marginRight="20sp"
+                android:background="@drawable/roundedbutton"
+
+                android:elevation="10sp"
+                android:text="Get OTP"
+                android:textColor="#fff" />
+            <EditText
+                android:id="@+id/otpET"
+                android:layout_height="wrap_content"
+                android:minHeight="40sp"
+                android:layout_width="match_parent"
+                android:layout_margin="8sp"
+                android:background="@drawable/border"
+                android:hint="Enter OTP"
+                android:inputType="phone"
+                android:padding="10sp"
+                android:textSize="20sp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Resend OTP"
+                android:layout_gravity="end"
+                android:textAlignment="viewEnd"
+                android:textSize="14sp"/>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+    <Button
+        android:id="@+id/registerBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="10sp"
+        android:background="@color/colorPrimary"
+        android:elevation="10sp"
+        android:text="Register"
+        android:textColor="#fff" />
+
+</RelativeLayout>

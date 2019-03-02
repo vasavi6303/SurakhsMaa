@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomeActivity">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+<LinearLayout
+    android:layout_margin="10sp"
+    android:padding="8sp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Select Pregnancy Month :"
+        android:textSize="16sp"
+        android:textColor="@color/colorPrimary"/>
+    <Spinner
+        android:layout_marginTop="8sp"
+        android:layout_marginBottom="8sp"
+        android:id="@+id/monthSpinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </Spinner>
+    <TextView
+        android:id="@+id/monthText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hello"
+        android:textSize="14sp"
+        android:textColor="#000"
+        android:padding="4sp"/>
+
+    <Button
+        android:id="@+id/tipOfTheDayBtn"
+        android:layout_marginTop="10sp"
+        android:padding="4sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20sp"
+        android:layout_marginRight="20sp"
+        android:textColor="#fff"
+        android:textSize="16sp"
+        android:text="Tip of the day!"
+        android:background="@drawable/roundedbutton"/>
+    <Button
+        android:id="@+id/videosBtn"
+        android:layout_marginTop="10sp"
+        android:padding="4sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20sp"
+        android:layout_marginRight="20sp"
+        android:textColor="#fff"
+        android:textSize="16sp"
+        android:text="Show Emergency videos"
+        android:background="@drawable/roundedbutton"/>
+
+
+</LinearLayout>
+    </ScrollView>
+</RelativeLayout>
